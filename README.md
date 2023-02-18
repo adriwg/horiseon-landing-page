@@ -11,7 +11,7 @@ N/A
 ## Usage
 
 The webpage has been refactored and can now be accessed via the following link:
-[Link text](https://adriwg.github.io/challenge1/)
+[Link text](https://adriwg.github.io/horiseon-landing-page/)
 
 ## Credits
 
