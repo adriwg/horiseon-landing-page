@@ -46,7 +46,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/** Banner styles **/
+/** Hero Banner styles **/
 
 .hero {
     width: 100%;
@@ -57,15 +57,25 @@ header nav ul li {
     background-position: center;
 }
 
+.hero .hero-banner-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+
 /** Section styles **/
 
-section.content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section.content article {
+.content article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
     padding: 50px;
@@ -74,7 +84,7 @@ section.content article {
     color: #ffffff;
 }
 
-section.content article img {
+.content article img {
     max-height: 200px;
 }
 
@@ -88,7 +98,7 @@ section.content article img {
     margin-left: 25px;
 }
 
-section.content article h2 {
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
