@@ -15,6 +15,8 @@ body {
     font-size: 16px;
 }
 
+/** Header styles **/
+
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -44,6 +46,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/** Banner styles **/
+
 .hero {
     width: 100%;
     height: 800px;
@@ -52,6 +56,8 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+
+/** Section styles **/
 
 section.content {
     width: 75%;
@@ -87,6 +93,8 @@ section.content article h2 {
     font-size: 36px;
 }
 
+/** Aside styles **/
+
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,12 +122,11 @@ aside.benefits article img{
     max-width: 150px;
 }
 
-
+/** Footer styles **/
 
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
